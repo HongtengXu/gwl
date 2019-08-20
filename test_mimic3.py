@@ -39,7 +39,7 @@ print(len(data_mc3['tar_interactions']))
 # plt.savefig('{}/tar.png'.format(result_folder))
 # plt.close('all')
 
-opt_dict = {'epochs': 5,
+opt_dict = {'epochs': 30,
             'batch_size': 57000,
             'use_cuda': False,
             'strategy': 'soft',
